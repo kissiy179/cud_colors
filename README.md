@@ -1,0 +1,2 @@
+# universal_colors
+ユニバーサルカラーを定義したpythonモジュール
