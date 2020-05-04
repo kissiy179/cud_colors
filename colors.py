@@ -41,7 +41,7 @@ achromatic_colors = OrderedDict((
 '''
 全色入り
 '''
-colors = OrderedDict()
-colors.update(accent_colors)
-colors.update(base_colors)
-colors.update(achromatic_colors)
+all_colors = OrderedDict()
+all_colors.update(accent_colors)
+all_colors.update(base_colors)
+all_colors.update(achromatic_colors)
