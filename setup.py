@@ -6,7 +6,6 @@ from glob import glob
 from setuptools import setup
 
 def _requires_from_file(filename):
-    '''requirements.txtから必要パッケージを取得'''
     if not exists(filename):
         return []
     
@@ -17,7 +16,10 @@ package_name = basename(dir_path)
 module_names = [splitext(basename(path))[0] for path in glob(r'{}\python\*.py'.format(dir_path))]
 requires_packages = _requires_from_file(r'{}\requirements.txt'.format(dir_path))
 
-# セットアップ
+# print(package_name)
+# print(module_names)
+# print(requires_packages)
+
 setup(
     name=package_name,
     version='0.1.0',
