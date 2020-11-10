@@ -12,6 +12,7 @@ module_names = [splitext(basename(path))[0] for path in glob('{}\python\*.py'.fo
 setup(
     name=package_name,
     version='0.1.0',
+    package_dir={"": "python"},
     py_modules=module_names,
     include_package_data=True,
     python_requires=">=2.7",
