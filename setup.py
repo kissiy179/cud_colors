@@ -24,7 +24,7 @@ setup(
     name='cud_colors',
     version='0.1.0',
     package_dir={"": "python"},
-    py_modules=['cud_colors'],
+    py_modules=requires_packages,
     include_package_data=True,
     zip_safe=False,
     python_requires=">=2.7",
