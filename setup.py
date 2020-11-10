@@ -3,7 +3,7 @@
 import os
 from setuptools import setup
 
-package_name = os.path.dirname(os.path.basename(__file__))
+package_name = os.path.basename(os.path.dirname(__file__))
 
 setup(
     name=package_name,
